@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PlaceMePlaces</title>
+    <link
+      href="https://fonts.goog../static/home.cssmily=Abril+Fatface&family=Montserrat:ital,wght@1,200&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../static/home.css" />
+  </head>
+  <body data-barba="wrapper">
+    <header class="nav-header">
+      <h1><a style="text-decoration: none" color: #fe0aa4  href="./index.html" id="logo">PlaceMe Places</a></h1>
+      <div class="burger">
+        <div class="line1"></div>
+        <div class="line2"></div>
+      </div>
+    </header>
+    <main data-barba="container" data-barba-namespace="home">
+      <section class="mountain slide">
+        <div class="hero-img">
+          <img src="../static/imgs/india-gate.jpeg" alt="forest image" />
+          <div class="reveal-img"></div>
+        </div>
+        <div class="hero-desc">
+          <div class="title">
+            <h2>
+              Freedom at your <span class="mountain-span">fingertips.</span>
+            </h2>
+            <div class="title-swipe t-swipe1"></div>
+          </div>
+          <p class='intro-chatbot'>
+          Introducing Placemeplaces, the AI-powered chatbot that helps you find new places to explore! 
+          Whether you're in the mood for a historical museums, a scenic hiking trail, or a peacefull lakes, 
+          Placemeplaces is here to suggest exciting options tailored to your moods.
+          </p>
+          <button class="button1" onclick="window.location.href='{{url_for('chatbot')}}'">Try it</button>
+          <div class="reveal-text"></div>
+        </div>
+      </section>
+      <section class="hike slide">
+        <div class="hero-img">
+          <img src="../static/imgs/ladhak.jpg" alt="hike image" />
+          <div class="reveal-img"></div>
+        </div>
+        <div class="hero-desc">
+          <div class="title">
+            <h2>Live young  <span class="hike-span">live free.</span></h2>
+            <div class="title-swipe t-swipe2"></div>
+          </div>
+          <!-- <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus
+            magni consequatur praesentium ea. Omnis in quasi eveniet praesentium
+            ipsa quos?
+          </p> -->
+          <!-- <a class="explore hike-exp">Explore</a> -->
+          <div class="reveal-text"></div>
+        </div>
+      </section>
+      <section class="fashion slide">
+        <div class="hero-img">
+          <img src="../static/imgs/rajasthan.jpg" alt="fashion image" />
+          <div class="reveal-img"></div>
+        </div>
+        <div class="hero-desc">
+          <div class="title">
+            <h2>
+              Adventure is out  <span class="fashion-span">there.</span>
+            </h2>
+            <div class="title-swipe t-swipe3"></div>
+          </div>
+          <!-- <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus
+            magni consequatur praesentium ea. Omnis in quasi eveniet praesentium
+            ipsa quos?
+          </p> -->
+          <!-- <a href="https://assets.codepen.io/4652296/index.html" class="explore fashion-exp">Explore</a> -->
+          <div class="reveal-text"></div>
+        </div>
+      </section>
+    </main>
+    <nav class="nav-bar">
+      <ul class="nav-links">
+        <h3>Twitter</h3>
+        <h3>Instagram</h3>
+        <h3>GitHub</h3>
+      </ul>
+      <div class="contact">
+        <h2 class="hike-span">Stay in touch.</h2>
+        <p>
+          We believe that to develop such a system, PlaceMePlaces that will suggest users places to visit based on their moods.  PlaceMePlaces is an innovative approach to travel recommendation systems that takes into account the emotional state , providing a more personalized experience.
+        </p>
+      </div>
+    </nav>
+    <div class="cursor">
+      <span class="cursor-text"></span>
+    </div>
+    <div class="swipe swipe1"></div>
+    <div class="swipe swipe2"></div>
+    <div class="swipe swipe3"></div>
+    <script src="https://unpkg.com/@barba/core"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"
+      integrity="sha256-2p2tRZlPowp3P/04Pw2rqVCSbhyV/IB7ZEVUglrDS/c="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"
+      integrity="sha256-XBVALc3QsDSQiDtiaBwNZ2rxCJTHzlUhhlDQ84J8bw8="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/animation.gsap.min.js"
+      integrity="sha256-+9YNuItWuR4sbqeaNiJOxG0BvptYz4fbUXbIZoH5Jwo="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.6/gsap.min.js"
+      integrity="sha256-3arngJBQR3FTyeRtL3muAGFaGcL8iHsubYOqq48mBLw="
+      crossorigin="anonymous"
+    ></script>
+    <script src="../static/script.js"></script>
+   
+  </body>
+ 
+</html>
